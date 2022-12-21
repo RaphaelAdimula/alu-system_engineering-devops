@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# restart apache & output of hello holberton
+sudo service apache2 restart
+echo "Hello Holberton" > /var/www/html/index.html
